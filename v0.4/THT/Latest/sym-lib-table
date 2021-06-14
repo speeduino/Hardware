@@ -4,4 +4,5 @@
   (lib (name Misc)(type Legacy)(uri ${KIPRJMOD}/lib/Misc/Misc.lib)(options "")(descr ""))
   (lib (name IC_Automotive)(type Legacy)(uri ${KIPRJMOD}/lib/IC_Automotive/IC_Automotive.lib)(options "")(descr ""))
   (lib (name v0.4.4c-rescue)(type Legacy)(uri ${KIPRJMOD}/v0.4.4c-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name v0.4.3d-rescue)(type Legacy)(uri ${KIPRJMOD}/v0.4.3d-rescue.lib)(options "")(descr ""))
 )

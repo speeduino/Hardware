@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L v0.4.4c-rescue:Arduino_Mega2560_Shield-Arduino XA1
+L v0.4.3d-rescue:Arduino_Mega2560_Shield-Arduino-v0.4.4c-rescue XA1
 U 1 1 5CD14B53
 P 6050 3400
 F 0 "XA1" H 6050 1019 60  0000 C CNN

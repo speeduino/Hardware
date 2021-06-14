@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L v0.4.4c-rescue:MPX4250-Misc U?
+L v0.4.3d-rescue:MPX4250-Misc-v0.4.4c-rescue U?
 U 1 1 5CD196C6
 P 2000 1900
 AR Path="/5CD196C6" Ref="U?"  Part="1" 

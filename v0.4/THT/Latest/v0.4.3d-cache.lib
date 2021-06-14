@@ -779,11 +779,11 @@ X Vdrive 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# v0.4.4c-rescue_Arduino_Mega2560_Shield-Arduino
+# v0.4.3d-rescue_Arduino_Mega2560_Shield-Arduino-v0.4.4c-rescue
 #
-DEF v0.4.4c-rescue_Arduino_Mega2560_Shield-Arduino XA 0 40 Y Y 1 F N
+DEF v0.4.3d-rescue_Arduino_Mega2560_Shield-Arduino-v0.4.4c-rescue XA 0 40 Y Y 1 F N
 F0 "XA" 100 0 60 V V C CNN
-F1 "v0.4.4c-rescue_Arduino_Mega2560_Shield-Arduino" -100 0 60 V V C CNN
+F1 "v0.4.3d-rescue_Arduino_Mega2560_Shield-Arduino-v0.4.4c-rescue" -100 0 60 V V C CNN
 F2 "" 700 2750 60 H I C CNN
 F3 "" 700 2750 60 H I C CNN
 $FPLIST
@@ -926,11 +926,11 @@ X VIN VIN -1300 -2150 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# v0.4.4c-rescue_MPX4250-Misc
+# v0.4.3d-rescue_MPX4250-Misc-v0.4.4c-rescue
 #
-DEF v0.4.4c-rescue_MPX4250-Misc U 0 40 Y Y 1 F N
+DEF v0.4.3d-rescue_MPX4250-Misc-v0.4.4c-rescue U 0 40 Y Y 1 F N
 F0 "U" 150 -150 60 H V C CNN
-F1 "v0.4.4c-rescue_MPX4250-Misc" -50 150 60 H V C CNN
+F1 "v0.4.3d-rescue_MPX4250-Misc-v0.4.4c-rescue" -50 150 60 H V C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
