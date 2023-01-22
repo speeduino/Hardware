@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.0-0)"
     },
-    "CreationDate": "2022-08-07T15:03:17+01:00"
+    "CreationDate": "2023-01-22T15:48:09+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "VR-Conditioner-MAX9926+reg",
       "GUID": "56522d43-6f6e-4646-9974-696f6e65722d",
-      "Revision": "3.72"
+      "Revision": "3.74"
     },
     "Size": {
       "X": 19.835,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.16,
+      "PadToTrack": 0.16,
       "TrackToTrack": 0.16,
       "MinLineWidth": 0.16,
       "TrackToRegion": 0.508,
@@ -82,6 +82,21 @@
       "Path": "VR-Conditioner-MAX9926+reg-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
+    },
+    {
+      "Path": "VR-Conditioner-MAX9926+reg-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "VR-Conditioner-MAX9926+reg-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "VR-Conditioner-MAX9926+reg-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [

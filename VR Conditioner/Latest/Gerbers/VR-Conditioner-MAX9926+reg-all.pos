@@ -1,20 +1,23 @@
-### Module positions - created on Saturday, April 24, 2021 at 12:46:16 PM ###
-### Printed by Pcbnew version kicad (5.1.6-0-10_14)
+### Module positions - created on Sunday, 14 August 2022 at 18:23:06 ###
+### Printed by Pcbnew version (6.0.0-0)
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val       Package                                           PosX       PosY       Rot  Side
-C1        10n       C_0603_1608Metric                              20.0025     8.8900  180.0000  top
-C2        100n      C_0603_1608Metric                              20.0025    10.7950  180.0000  top
-C3        1u        C_0603_1608Metric                              20.0025    12.7000  180.0000  top
-C4        10u       C_0805_2012Metric                              12.0650     8.5090    0.0000  top
-C10       1n        C_0603_1608Metric                               5.2705    14.2875    0.0000  top
-C20       1n        C_0603_1608Metric                               5.2705     8.0010  180.0000  top
-FID1      Fiducial  Fiducial_0.5mm_Mask1mm                          3.8100     3.8100    0.0000  top
-FID2      Fiducial  Fiducial_0.5mm_Mask1mm                         20.9550    20.9550    0.0000  top
-R1        10k       R_1206_3216Metric                               5.3975    12.3190    0.0000  top
-R2        10k       R_1206_3216Metric                               5.3975     6.0325    0.0000  top
-R3        10k       R_1206_3216Metric                               5.3975     9.9695    0.0000  top
-R10       1k        R_0603_1608Metric_Pad1.05x0.95mm_HandSolder    20.0025    16.5100  180.0000  top
-R12       10k       R_1206_3216Metric                               5.3975    16.2560    0.0000  top
-R20       1k        R_0603_1608Metric_Pad1.05x0.95mm_HandSolder    20.0025    14.6050  180.0000  top
+# Ref     Val           Package                                           PosX       PosY       Rot  Side
+J2        Edge          PinHeader_1x04_P2.54mm_Horizontal            -118.7450  -114.4270  -90.0000  bottom
+C1        10n           C_0603_1608Metric                             129.8575  -109.8550  180.0000  top
+C2        100n          C_0603_1608Metric                             129.8575  -107.9500  180.0000  top
+C3        1u            C_0603_1608Metric                             129.8575  -106.0450  180.0000  top
+C4        10u           C_0805_2012Metric                             121.9200  -109.8550    0.0000  top
+C10       1n            C_0603_1608Metric                             115.1255  -104.4575    0.0000  top
+C20       1n            C_0603_1608Metric                             115.1255  -110.7440  180.0000  top
+FID1      Fiducial      Fiducial_0.5mm_Mask1mm                        113.6650  -114.9350    0.0000  top
+FID2      Fiducial      Fiducial_0.5mm_Mask1mm                        130.8100   -97.7900    0.0000  top
+J3        8-pin_header  DIP-8_W7.62mm                                 119.0625  -102.2350    0.0000  top
+R10       1k            R_0603_1608Metric_Pad1.05x0.95mm_HandSolder   129.8575  -102.2350  180.0000  top
+R11       10k           R_1206_3216Metric                             115.2525  -106.4260    0.0000  top
+R12       10k           R_1206_3216Metric                             115.2525  -102.4890    0.0000  top
+R20       1k            R_0603_1608Metric_Pad1.05x0.95mm_HandSolder   129.8575  -104.1400  180.0000  top
+R21       10k           R_1206_3216Metric                             115.2525  -112.7125    0.0000  top
+R22       10k           R_1206_3216Metric                             115.2525  -108.7755    0.0000  top
+U1        MAX9926UAEE+  MAX9926UAEE&plus_                             122.8725  -104.9020  -90.0000  top
 ## End

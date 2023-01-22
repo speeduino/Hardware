@@ -1,7 +1,18 @@
-I hope this helps anyone interested.
-Anyway, I've done what I can & it's now ready for many eye-balls.
+### 2023-01-22
+Most significant change is to correct the Channel 1 polarity of previous version.
+In practise everyone seems to try their VR pick-up in both polarities before settling on the best for their set-up.
+Tidied the silkscreen a lot to improve readability. Removed component IDs from silkscreen. Still on the FAB layer.
+Moved a regulator & edge pin header slightly to make soldering easier.
+Re-routed traces from header pins 1 & 2 so that either could be cut if you wanted to mix VR & a piggy-backed opto-isolator.
+Also update because KiCAD v6.x seems to have moved a lot of things.
 
-Phill
+### 2022-09-10
+Received a batch of v3.73 boards & bench-tested using 13 year-old Crankshaft Position Sensor 7674201-01 from 2009 BMW F800R 
+and a metal 'L' hook screw in a hand drill at about 1000 rpm. All OK on 5V & also on 12V with a TS78L05CT TO-92 regulator.
+
+### 2022-08-14
+Replace linear regulator with more robust choice. Move U1 & C4 to make space. Adjust all tracks as required including widening. 
+Updated BOM.  I will shortly be ordering a run of these, e-mail if you're interested: TechColab.co.je [at] Gmail.con
 
 ### 2022-08-07
 Added test-pads which can be used to solder directly when not using socket mount, E.g. when placing the VR conditioner as close as possible to the engine sensors in noisy environments. Improved ground plane shielding & much improved silk screen labelling. Tried to fit an official OpenSource Hardware logo but even the smallest is too big. Update to KiCAD v6.x so 3D renders now without components.  N.B. To be clear, this board is for VR only & does not support an opto-isolator option.
