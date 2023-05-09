@@ -2,7 +2,7 @@
 
 <img src="https://github.com/speeduino/wiki.js/raw/master/img/Speeduino%20logo_med.png" alt="Speeduino" width="600" />
  
-[![Chat on Slack](https://img.shields.io/badge/slack-speeduino-CC2B5E.svg?style=flat&logo=slack)](https://speeduino.com/home/community/slack)
+[![https://img.shields.io/discord/879495735912071269 ](https://img.shields.io/discord/879495735912071269?label=Discord&logo=Discord)]
 
 ##### A low cost, DIY friendly Engine Management System (ECU) based on the Arduino framework
 </div>
@@ -28,9 +28,9 @@ Of course, being open source, you are free to use the design files provided here
 In addition the manual referenced above, Speeduino has a large and very vibrant community of people to help out with your setup or any questions you might add. 
 
 * [Speeduino Forum](https://speeduino.com/forum) 
-* [Slack](https://speeduino.com/home/community/slack)
+* [Discord](hhttps://discord.com/invite/taXeNM6xNb)
 * [Facebook](https://www.facebook.com/groups/191918764521976/)
 
 ## Contributors
 
-This project exists thanks to all the people who contribute, both in terms of code and testing provided. If you'd like to get involved, please have a read through [Contributing](contributing.md) and then jump on Slack to discuss things further
+This project exists thanks to all the people who contribute, both in terms of code and testing provided. If you'd like to get involved, please have a read through [Contributing](contributing.md) and then jump on Discord to discuss things further
