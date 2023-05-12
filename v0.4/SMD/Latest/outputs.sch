@@ -1,21 +1,21 @@
 EESchema Schematic File Version 4
-LIBS:v0.4.4c-cache
+LIBS:v0.4.4d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "0.4"
+Date "2021-03-27"
+Rev "4d"
+Comp "Speeduino"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IC_Automotive:VNLD5090 U7
+L v0.4.4c-rescue:VNLD5090-IC_Automotive U7
 U 1 1 5CE9F50F
 P 2600 1900
 F 0 "U7" H 2700 2467 50  0000 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Text Notes 1850 800  0    78   ~ 0
 PWM Idle and Boost outputs
 $Comp
-L IC_Automotive:VNLD5090 U9
+L v0.4.4c-rescue:VNLD5090-IC_Automotive U9
 U 1 1 5CEAD71A
 P 8350 1900
 F 0 "U9" H 8450 2467 50  0000 C CNN
@@ -304,36 +304,6 @@ Text GLabel 5850 4200 2    50   Input ~ 0
 FUELPUMP-OUT
 Text Notes 4750 3300 0    78   ~ 0
 Fan and Fuel Pump outputs
-$Comp
-L Device:D D18
-U 1 1 5CEC935F
-P 3850 2300
-F 0 "D18" V 3896 2221 50  0000 R CNN
-F 1 "D" V 3805 2221 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323" H 3850 2300 50  0001 C CNN
-F 3 "~" H 3850 2300 50  0001 C CNN
-F 4 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "MCC" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
-	1    3850 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D17
-U 1 1 5CEC9E8B
-P 3850 1400
-F 0 "D17" V 3804 1479 50  0000 L CNN
-F 1 "D" V 3895 1479 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 3850 1400 50  0001 C CNN
-F 3 "~" H 3850 1400 50  0001 C CNN
-F 4 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "MCC" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
-	1    3850 1400
-	0    1    1    0   
-$EndComp
 Text GLabel 3700 2500 0    50   Input ~ 0
 12V-SW
 Text GLabel 3700 1200 0    50   Input ~ 0
@@ -492,12 +462,12 @@ U 1 1 5CE88F47
 P 9350 1500
 F 0 "D19" V 9304 1579 50  0000 L CNN
 F 1 "D" V 9395 1579 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 9350 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 9350 1500 50  0001 C CNN
 F 3 "~" H 9350 1500 50  0001 C CNN
-F 4 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "MCC" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
+F 4 "S110FACT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+F 5 "ONSEMI" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 6 "S110FA" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098" H 0   0   50  0001 C CNN "URL"
 	1    9350 1500
 	0    1    1    0   
 $EndComp
@@ -616,21 +586,6 @@ Text GLabel 9550 2000 2    50   Input ~ 0
 HC-2-OUT
 Text GLabel 7150 2000 0    50   Input ~ 0
 MCU-D4
-$Comp
-L Device:D D16
-U 1 1 5D1AF048
-P 9350 2350
-F 0 "D16" V 9304 2429 50  0000 L CNN
-F 1 "D" V 9395 2429 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 9350 2350 50  0001 C CNN
-F 3 "~" H 9350 2350 50  0001 C CNN
-F 4 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "MCC" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
-	1    9350 2350
-	0    1    -1   0   
-$EndComp
 Text GLabel 9550 2600 2    50   Input ~ 0
 12V-SW
 Wire Wire Line
@@ -759,5 +714,50 @@ F 2 "" H 5500 4750 50  0001 C CNN
 F 3 "" H 5500 4750 50  0001 C CNN
 	1    5500 4750
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 605C7132
+P 9350 2350
+F 0 "D16" V 9304 2429 50  0000 L CNN
+F 1 "D" V 9395 2429 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 9350 2350 50  0001 C CNN
+F 3 "~" H 9350 2350 50  0001 C CNN
+F 4 "S110FACT-ND" H 0   850 50  0001 C CNN "Digikey Part Number"
+F 5 "ONSEMI" H 0   850 50  0001 C CNN "Manufacturer_Name"
+F 6 "S110FA" H 0   850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098" H 0   850 50  0001 C CNN "URL"
+	1    9350 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 605CAD9E
+P 3850 1400
+F 0 "D17" V 3804 1479 50  0000 L CNN
+F 1 "D" V 3895 1479 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3850 1400 50  0001 C CNN
+F 3 "~" H 3850 1400 50  0001 C CNN
+F 4 "S110FACT-ND" H -5500 -100 50  0001 C CNN "Digikey Part Number"
+F 5 "ONSEMI" H -5500 -100 50  0001 C CNN "Manufacturer_Name"
+F 6 "S110FA" H -5500 -100 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098" H -5500 -100 50  0001 C CNN "URL"
+	1    3850 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 605CC406
+P 3850 2300
+F 0 "D18" V 3804 2379 50  0000 L CNN
+F 1 "D" V 3895 2379 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3850 2300 50  0001 C CNN
+F 3 "~" H 3850 2300 50  0001 C CNN
+F 4 "S110FACT-ND" H -5500 800 50  0001 C CNN "Digikey Part Number"
+F 5 "ONSEMI" H -5500 800 50  0001 C CNN "Manufacturer_Name"
+F 6 "S110FA" H -5500 800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098" H -5500 800 50  0001 C CNN "URL"
+	1    3850 2300
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC

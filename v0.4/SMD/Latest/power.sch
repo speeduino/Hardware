@@ -1,34 +1,19 @@
 EESchema Schematic File Version 4
-LIBS:v0.4.4c-cache
+LIBS:v0.4.4d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "0.4"
+Date "2021-03-27"
+Rev "4d"
+Comp "Speeduino"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:Varistor RV1
-U 1 1 5CD230CD
-P 4500 2850
-F 0 "RV1" H 4603 2896 50  0000 L CNN
-F 1 "Varistor" H 4603 2805 50  0000 L CNN
-F 2 "Varistor:RV_Disc_D15.5mm_W4.7mm_P7.5mm" V 4430 2850 50  0001 C CNN
-F 3 "~" H 4500 2850 50  0001 C CNN
-F 4 "MOV-14D220K-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Bournes Inc" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "MOV-14D220K" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/bourns-inc/MOV-14D220K/MOV-14D220K-ND/2799109" H 0   0   50  0001 C CNN "URL"
-	1    4500 2850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C18
 U 1 1 5CD23BD5
@@ -69,22 +54,20 @@ Connection ~ 5050 2700
 $Comp
 L Device:D_Schottky D14
 U 1 1 5CD266C1
-P 5700 2450
-F 0 "D14" H 5700 2234 50  0000 C CNN
-F 1 "B130-13-F" H 5700 2325 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5700 2450 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/ds13002-60388.pdf" H 5700 2450 50  0001 C CNN
-F 4 "B130-FDICT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Diodes Inc" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "B130-13-F" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/diodes-incorporated/B130-13-F/B130-FDICT-ND/815318" H 0   0   50  0001 C CNN "URL"
-	1    5700 2450
-	-1   0    0    1   
+P 5050 2350
+F 0 "D14" H 5050 2134 50  0000 C CNN
+F 1 "B130-13-F" H 5050 2225 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5050 2350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/ds13002-60388.pdf" H 5050 2350 50  0001 C CNN
+F 4 "B130-FDICT-ND" H -650 -100 50  0001 C CNN "Digikey Part Number"
+F 5 "Diodes Inc" H -650 -100 50  0001 C CNN "Manufacturer_Name"
+F 6 "B130-13-F" H -650 -100 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/diodes-incorporated/B130-13-F/B130-FDICT-ND/815318" H -650 -100 50  0001 C CNN "URL"
+	1    5050 2350
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5500 2700 5500 2450
-Wire Wire Line
-	5500 2450 5550 2450
 Connection ~ 5500 2700
 Text GLabel 6100 2050 2    50   Input ~ 0
 VRegIn
@@ -121,23 +104,6 @@ F 8 "https://www.digikey.com/product-detail/en/avx-corporation/TAJB476K006RNJ/47
 	1    7250 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Zener D15
-U 1 1 5CD29D83
-P 7600 2850
-AR Path="/5CD18EC3/5CD29D83" Ref="D15"  Part="1" 
-AR Path="/5CD29D83" Ref="D15"  Part="1" 
-F 0 "D15" V 7554 2929 50  0000 L CNN
-F 1 "1SMB5919BT3G" V 7645 2929 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 7600 2850 50  0001 C CNN
-F 3 "~" H 7600 2850 50  0001 C CNN
-F 4 "1SMB5919BT3GOSCT-ND " H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "On Semi" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "1SMB5919BT3G" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/on-semiconductor/1SMB5919BT3G/1SMB5919BT3GOSCT-ND/917722" H 0   0   50  0001 C CNN "URL"
-	1    7600 2850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6900 2700 7250 2700
 Wire Wire Line
@@ -159,8 +125,6 @@ F 3 "" H 6350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3000 4500 3100
-Wire Wire Line
 	4500 3100 5050 3100
 Wire Wire Line
 	5050 3000 5050 3100
@@ -172,8 +136,6 @@ Wire Wire Line
 Connection ~ 5500 3100
 Wire Wire Line
 	5500 3100 6350 3100
-Wire Wire Line
-	7600 3000 7600 3100
 Wire Wire Line
 	7600 3100 7250 3100
 Connection ~ 6350 3100
@@ -189,12 +151,8 @@ Wire Wire Line
 	6900 3100 6350 3100
 Text Notes 5700 1900 0    89   ~ 0
 Power Regulator
-Text GLabel 4850 2450 0    50   Input ~ 0
+Text GLabel 5050 2000 0    50   Input ~ 0
 12V-SW
-Wire Wire Line
-	4850 2450 5050 2450
-Wire Wire Line
-	5050 2450 5050 2700
 Text Notes 5650 4050 0    89   ~ 0
 Reset Protection
 Text Notes 5500 4200 0    58   ~ 0
@@ -263,7 +221,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 4550 6150 4550
 $Comp
-L Misc:AYZ0202AGRLC S1
+L v0.4.4c-rescue:AYZ0202AGRLC-Misc S1
 U 1 1 5CDDD447
 P 6000 5050
 F 0 "S1" H 6550 5315 50  0000 C CNN
@@ -343,8 +301,6 @@ Wire Wire Line
 	5950 2050 5950 2450
 Connection ~ 5950 2450
 Wire Wire Line
-	5950 2450 5850 2450
-Wire Wire Line
 	6100 2050 5950 2050
 $Comp
 L power:VDDA #PWR0108
@@ -387,4 +343,28 @@ F 7 "https://www.digikey.com.au/product-detail/en/bel-fuse-inc/0ZCC0050FF2C/507-
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8400 2200
+Wire Wire Line
+	5050 2000 5050 2200
+Wire Wire Line
+	5050 2500 5050 2700
+Wire Wire Line
+	5500 2450 5950 2450
+$Comp
+L Device:D_Zener D15
+U 1 1 60723E7D
+P 4500 2900
+F 0 "D15" V 4454 2979 50  0000 L CNN
+F 1 "D_TVS" V 4545 2979 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 4500 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+F 4 "SMBJ40A-QCT-ND" H 4500 2900 50  0001 C CNN "Digikey Part Number"
+F 5 "Bournes Inc." H 4500 2900 50  0001 C CNN "Manufacturer_Name"
+F 6 "SMBJ40A-Q" H 4500 2900 50  0001 C CNN "Manufacturer_Part_Number"
+	1    4500 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2700 4500 2750
+Wire Wire Line
+	4500 3100 4500 3050
 $EndSCHEMATC

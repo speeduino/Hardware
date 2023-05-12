@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:v0.4.4c-cache
+LIBS:v0.4.4d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "0.4"
+Date "2021-03-27"
+Rev "4d"
+Comp "Speeduino"
 Comment1 ""
 Comment2 ""
 Comment3 ""

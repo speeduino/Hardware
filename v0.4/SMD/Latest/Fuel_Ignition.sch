@@ -1,21 +1,21 @@
 EESchema Schematic File Version 4
-LIBS:v0.4.4c-cache
+LIBS:v0.4.4d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "0.4"
+Date "2021-03-27"
+Rev "4d"
+Comp "Speeduino"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IC_Automotive:VNLD5090 U1
+L v0.4.4c-rescue:VNLD5090-IC_Automotive U1
 U 1 1 5CD2EEDB
 P 3400 2550
 F 0 "U1" H 3500 3117 50  0000 C CNN
@@ -258,7 +258,7 @@ Connection ~ 4650 1750
 Text Notes 3050 1250 0    89   ~ 0
 Injector Driver 1
 $Comp
-L IC_Automotive:VNLD5090 U3
+L v0.4.4c-rescue:VNLD5090-IC_Automotive U3
 U 1 1 5CD55CAF
 P 8100 2500
 F 0 "U3" H 8200 3067 50  0000 C CNN
@@ -501,17 +501,17 @@ Connection ~ 9350 1700
 Text Notes 7750 1200 0    89   ~ 0
 Injector Driver 2
 $Comp
-L IC_Automotive:TC4424A U2
+L v0.4.4c-rescue:TC4424A-IC_Automotive U2
 U 1 1 5CD5779E
 P 4150 6550
 F 0 "U2" H 3525 8165 50  0000 C CNN
-F 1 "TC4424A" H 3525 8074 50  0000 C CNN
+F 1 "IXDN602" H 3525 8074 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3750 6100 50  0001 C CNN
 F 3 "" H 4150 6550 50  0001 C CNN
-F 4 "TC4424AVOA-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "TC4424AVOA" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/microchip-technology/TC4424AVOA/TC4424AVOA-ND/1098908" H 0   0   50  0001 C CNN "URL"
+F 4 "212-IXDN602SIACT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+F 5 "IXYS" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 6 "IXDN602SIATR" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/IXDN602SIATR/2424695" H 0   0   50  0001 C CNN "URL"
 	1    4150 6550
 	1    0    0    -1  
 $EndComp
@@ -691,21 +691,6 @@ Wire Wire Line
 	4300 5350 4000 5350
 Text GLabel 4750 5800 2    50   Input ~ 0
 IGN-1-OUT
-$Comp
-L Device:R R13
-U 1 1 5CD70319
-P 4500 5000
-F 0 "R13" V 4293 5000 50  0000 C CNN
-F 1 "10R" V 4384 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 5000 50  0001 C CNN
-F 3 "~" H 4500 5000 50  0001 C CNN
-F 4 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
-	1    4500 5000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 5000 4300 5000
 Connection ~ 4300 5000
@@ -773,21 +758,6 @@ Wire Wire Line
 	3800 6050 3900 6050
 Text GLabel 4750 5000 2    50   Input ~ 0
 IGN-2-OUT
-$Comp
-L Device:R R14
-U 1 1 5CD80B3C
-P 4500 5800
-F 0 "R14" V 4293 5800 50  0000 C CNN
-F 1 "10R" V 4384 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 5800 50  0001 C CNN
-F 3 "~" H 4500 5800 50  0001 C CNN
-F 4 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
-	1    4500 5800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4650 5800 4750 5800
 Wire Wire Line
@@ -877,21 +847,6 @@ Wire Wire Line
 	3950 3500 4100 3500
 Wire Wire Line
 	4400 3500 4650 3500
-$Comp
-L IC_Automotive:TC4424A U4
-U 1 1 5CF6B4C1
-P 9100 6500
-F 0 "U4" H 8475 8115 50  0000 C CNN
-F 1 "TC4424A" H 8475 8024 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8700 6050 50  0001 C CNN
-F 3 "" H 9100 6500 50  0001 C CNN
-F 4 "TC4424AVOA-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "TC4424AVOA" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/microchip-technology/TC4424AVOA/TC4424AVOA-ND/1098908" H 0   0   50  0001 C CNN "URL"
-	1    9100 6500
-	1    0    0    -1  
-$EndComp
 Text Notes 8050 4250 0    89   ~ 0
 Ignition Driver 2
 $Comp
@@ -1074,12 +1029,12 @@ U 1 1 5CF6B519
 P 9450 4950
 F 0 "R27" V 9243 4950 50  0000 C CNN
 F 1 "10R" V 9334 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9380 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 4950 50  0001 C CNN
 F 3 "~" H 9450 4950 50  0001 C CNN
-F 4 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+F 4 "311-10.0FRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
+F 6 "RC1206FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482" H 0   0   50  0001 C CNN "URL"
 	1    9450 4950
 	0    1    1    0   
 $EndComp
@@ -1139,21 +1094,6 @@ Wire Wire Line
 	8750 6000 8850 6000
 Text GLabel 9700 5750 2    50   Input ~ 0
 IGN-3-OUT
-$Comp
-L Device:R R28
-U 1 1 5CF6B53F
-P 9450 5750
-F 0 "R28" V 9243 5750 50  0000 C CNN
-F 1 "10R" V 9334 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 9380 5750 50  0001 C CNN
-F 3 "~" H 9450 5750 50  0001 C CNN
-F 4 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
-	1    9450 5750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9600 5750 9700 5750
 Wire Wire Line
@@ -1335,4 +1275,64 @@ Wire Wire Line
 Connection ~ 9850 5400
 Wire Wire Line
 	9850 5400 9400 5400
+$Comp
+L Device:R R28
+U 1 1 605DA2EB
+P 9450 5750
+F 0 "R28" V 9243 5750 50  0000 C CNN
+F 1 "10R" V 9334 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 9380 5750 50  0001 C CNN
+F 3 "~" H 9450 5750 50  0001 C CNN
+F 4 "311-10.0FRCT-ND" H 0   800 50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H 0   800 50  0001 C CNN "Manufacturer_Name"
+F 6 "RC1206FR-0710RL" H 0   800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482" H 0   800 50  0001 C CNN "URL"
+	1    9450 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 605DA628
+P 4500 5000
+F 0 "R13" V 4293 5000 50  0000 C CNN
+F 1 "10R" V 4384 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4430 5000 50  0001 C CNN
+F 3 "~" H 4500 5000 50  0001 C CNN
+F 4 "311-10.0FRCT-ND" H -4950 50  50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H -4950 50  50  0001 C CNN "Manufacturer_Name"
+F 6 "RC1206FR-0710RL" H -4950 50  50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482" H -4950 50  50  0001 C CNN "URL"
+	1    4500 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 605DB296
+P 4500 5800
+F 0 "R14" V 4293 5800 50  0000 C CNN
+F 1 "10R" V 4384 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4430 5800 50  0001 C CNN
+F 3 "~" H 4500 5800 50  0001 C CNN
+F 4 "311-10.0FRCT-ND" H -4950 850 50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H -4950 850 50  0001 C CNN "Manufacturer_Name"
+F 6 "RC1206FR-0710RL" H -4950 850 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482" H -4950 850 50  0001 C CNN "URL"
+	1    4500 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L v0.4.4c-rescue:TC4424A-IC_Automotive U4
+U 1 1 605DB7DF
+P 9100 6500
+F 0 "U4" H 8475 8115 50  0000 C CNN
+F 1 "IXDN602" H 8475 8024 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8700 6050 50  0001 C CNN
+F 3 "" H 9100 6500 50  0001 C CNN
+F 4 "212-IXDN602SIACT-ND" H 4950 -50 50  0001 C CNN "Digikey Part Number"
+F 5 "IXYS" H 4950 -50 50  0001 C CNN "Manufacturer_Name"
+F 6 "IXDN602SIATR" H 4950 -50 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/IXDN602SIATR/2424695" H 4950 -50 50  0001 C CNN "URL"
+	1    9100 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

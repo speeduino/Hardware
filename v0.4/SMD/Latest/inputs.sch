@@ -1,21 +1,21 @@
 EESchema Schematic File Version 4
-LIBS:v0.4.4c-cache
+LIBS:v0.4.4d-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "0.4"
+Date "2021-03-27"
+Rev "4d"
+Comp "Speeduino"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Misc:MPX4250 U?
+L v0.4.4c-rescue:MPX4250-Misc U?
 U 1 1 5CD196C6
 P 2000 1900
 AR Path="/5CD196C6" Ref="U?"  Part="1" 
@@ -156,7 +156,7 @@ Wire Wire Line
 Text Notes 1800 850  0    74   ~ 0
 MAP Sensor
 $Comp
-L IC_Automotive:SP720 U6
+L v0.4.4c-rescue:SP720-IC_Automotive U6
 U 1 1 5CDA8540
 P 8900 1450
 F 0 "U6" H 8900 2117 50  0000 C CNN
