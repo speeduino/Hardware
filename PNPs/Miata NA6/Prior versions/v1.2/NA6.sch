@@ -14,6 +14,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Arduino:Arduino_Mega2560_Shield XA1
+U 1 1 5CD14B53
+P 3500 3400
+F 0 "XA1" H 3500 1019 60  0000 C CNN
+F 1 "Arduino_Mega2560_Shield" H 3500 913 60  0000 C CNN
+F 2 "Shields:Arduino_Mega2560_Shield_IO_Only" H 4200 6150 60  0001 C CNN
+F 3 "" H 4200 6150 60  0001 C CNN
+	1    3500 3400
+	1    0    0    -1  
+$EndComp
 $Sheet
 S 750  6800 500  550 
 U 5CD18C17
@@ -277,6 +288,18 @@ Text GLabel 4900 4150 2    50   Input ~ 0
 MCU-D39
 Text GLabel 4900 4050 2    50   Input ~ 0
 MCU-D38
+Text GLabel 4900 3950 2    50   Input ~ 0
+MCU-D37
+Text GLabel 4900 3850 2    50   Input ~ 0
+MCU-D36
+Text GLabel 4900 3750 2    50   Input ~ 0
+MCU-D35
+Text GLabel 4900 3650 2    50   Input ~ 0
+MCU-D34
+Text GLabel 4900 3550 2    50   Input ~ 0
+MCU-D33
+Text GLabel 4900 3450 2    50   Input ~ 0
+MCU-D32
 Text GLabel 4900 5550 2    50   Input ~ 0
 MCU-D53
 Wire Wire Line
@@ -311,6 +334,26 @@ Wire Wire Line
 	4800 4150 4900 4150
 Wire Wire Line
 	4900 4050 4800 4050
+Wire Wire Line
+	4800 3950 4900 3950
+Wire Wire Line
+	4900 3850 4800 3850
+Wire Wire Line
+	4800 3750 4900 3750
+Wire Wire Line
+	4900 3650 4800 3650
+Wire Wire Line
+	4800 3550 4900 3550
+Wire Wire Line
+	4900 3450 4800 3450
+Text GLabel 4900 3250 2    50   Input ~ 0
+MCU-D30
+Text GLabel 4900 3150 2    50   Input ~ 0
+MCU-D29
+Text GLabel 4900 3050 2    50   Input ~ 0
+MCU-D28
+Text GLabel 4900 2950 2    50   Input ~ 0
+MCU-D27
 Text GLabel 4900 2850 2    50   Input ~ 0
 MCU-D26
 Text GLabel 4900 2750 2    50   Input ~ 0
@@ -345,6 +388,8 @@ Text GLabel 4900 1350 2    50   Input ~ 0
 MCU-D3
 Text GLabel 4900 1250 2    50   Input ~ 0
 MCU-D2
+Text GLabel 4900 3350 2    50   Input ~ 0
+MCU-D31
 Wire Wire Line
 	4800 1250 4900 1250
 Wire Wire Line
@@ -369,6 +414,16 @@ Wire Wire Line
 	4800 2250 4900 2250
 Wire Wire Line
 	4900 2350 4800 2350
+Wire Wire Line
+	4800 3350 4900 3350
+Wire Wire Line
+	4900 3250 4800 3250
+Wire Wire Line
+	4800 3150 4900 3150
+Wire Wire Line
+	4900 3050 4800 3050
+Wire Wire Line
+	4800 2950 4900 2950
 Wire Wire Line
 	4900 2850 4800 2850
 Wire Wire Line
@@ -540,63 +595,4 @@ Text GLabel 2100 5550 0    50   Input ~ 0
 VIN
 Wire Wire Line
 	2100 5550 2200 5550
-Wire Wire Line
-	4800 2950 4900 2950
-Wire Wire Line
-	4900 3050 4800 3050
-Wire Wire Line
-	4800 3150 4900 3150
-Wire Wire Line
-	4900 3250 4800 3250
-Wire Wire Line
-	4800 3350 4900 3350
-Text GLabel 4900 3350 2    50   Input ~ 0
-MCU-D31
-Text GLabel 4900 2950 2    50   Input ~ 0
-MCU-D27
-Text GLabel 4900 3050 2    50   Input ~ 0
-MCU-D28
-Text GLabel 4900 3150 2    50   Input ~ 0
-MCU-D29
-Text GLabel 4900 3250 2    50   Input ~ 0
-MCU-D30
-Wire Wire Line
-	4900 3450 4800 3450
-Wire Wire Line
-	4800 3550 4900 3550
-Wire Wire Line
-	4900 3650 4800 3650
-Wire Wire Line
-	4800 3750 4900 3750
-Wire Wire Line
-	4900 3850 4800 3850
-Wire Wire Line
-	4800 3950 4900 3950
-Text GLabel 4900 3450 2    50   Input ~ 0
-MCU-D32
-Text GLabel 4900 3550 2    50   Input ~ 0
-MCU-D33
-Text GLabel 4900 3650 2    50   Input ~ 0
-MCU-D34
-Text GLabel 4900 3750 2    50   Input ~ 0
-MCU-D35
-Text GLabel 4900 3850 2    50   Input ~ 0
-MCU-D36
-Text GLabel 4900 3950 2    50   Input ~ 0
-MCU-D37
-$Comp
-L Arduino:Arduino_Mega2560_Shield XA1
-U 1 1 5CD14B53
-P 3500 3400
-F 0 "XA1" H 3500 1019 60  0000 C CNN
-F 1 "Arduino_Mega2560_Shield" H 3500 913 60  0000 C CNN
-F 2 "Shields:Arduino_Mega2560_Shield_IO_Only" H 4200 6150 60  0001 C CNN
-F 3 "" H 4200 6150 60  0001 C CNN
-	1    3500 3400
-	1    0    0    -1  
-$EndComp
-Text GLabel 1950 3750 0    50   Input ~ 0
-MCU-A12
-Wire Wire Line
-	1950 3750 2200 3750
 $EndSCHEMATC

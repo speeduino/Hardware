@@ -69,25 +69,27 @@ Connection ~ 5450 1750
 $Comp
 L Device:D_Schottky D12
 U 1 1 5CD266C1
-P 5450 1500
-F 0 "D12" H 5450 1284 50  0000 C CNN
-F 1 "D_Schottky" H 5450 1375 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5450 1500 50  0001 C CNN
-F 3 "~" H 5450 1500 50  0001 C CNN
-F 4 "Micro Commercial Co" H 2900 -300 50  0001 C CNN "Manufacturer_Name"
-F 5 "1N5818-TP" H 2900 -300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N5818-TP/1N5818-TPCT-ND/950587" H 2900 -300 50  0001 C CNN "URL"
-F 7 "1N5818-TPCT-ND" H 2900 -300 50  0001 C CNN "Digikey Part Number"
-	1    5450 1500
-	0    -1   -1   0   
+P 6100 1500
+F 0 "D12" H 6100 1284 50  0000 C CNN
+F 1 "D_Schottky" H 6100 1375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 6100 1500 50  0001 C CNN
+F 3 "~" H 6100 1500 50  0001 C CNN
+F 4 "Micro Commercial Co" H 3550 -300 50  0001 C CNN "Manufacturer_Name"
+F 5 "1N5818-TP" H 3550 -300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N5818-TP/1N5818-TPCT-ND/950587" H 3550 -300 50  0001 C CNN "URL"
+F 7 "1N5818-TPCT-ND" H 3550 -300 50  0001 C CNN "Digikey Part Number"
+	1    6100 1500
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5900 1750 5900 1500
 Wire Wire Line
 	5900 1500 5950 1500
 Connection ~ 5900 1750
-Text GLabel 5950 1500 2    50   Input ~ 0
+Text GLabel 6400 1500 2    50   Input ~ 0
 VRegIn
+Wire Wire Line
+	6400 1500 6250 1500
 $Comp
 L power:VDD #PWR048
 U 1 1 5CD27956
@@ -225,14 +227,13 @@ L Device:C C18
 U 1 1 5CD312A1
 P 5350 3300
 F 0 "C18" H 5465 3346 50  0000 L CNN
-F 1 "1uF" H 5465 3255 50  0000 L CNN
+F 1 "0.1uF" H 5465 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5388 3150 50  0001 C CNN
 F 3 "~" H 5350 3300 50  0001 C CNN
 F 4 "Yageo" H 3550 -300 50  0001 C CNN "Manufacturer_Name"
-F 5 "CC0805KKX7R7BB105" H 3550 -300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/product-detail/en/yageo/CC0805KKX7R7BB105/311-1365-1-ND/2103149" H 3550 -300 50  0001 C CNN "URL"
-F 7 "311-1365-1-ND" H 3550 -300 50  0001 C CNN "Digikey Part Number"
-F 8 "CC0805KKX7R7BB105" H 5350 3300 50  0001 C CNN "Part #"
+F 5 "CC0805KRX7R9BB104" H 3550 -300 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com.au/product-detail/en/yageo/CC0805KRX7R9BB104/311-1140-1-ND/303050" H 3550 -300 50  0001 C CNN "URL"
+F 7 "311-1140-1-ND" H 3550 -300 50  0001 C CNN "Digikey Part Number"
 	1    5350 3300
 	1    0    0    -1  
 $EndComp
@@ -356,8 +357,12 @@ Wire Wire Line
 Connection ~ 7300 3200
 Text Notes 6100 950  0    89   ~ 0
 Power Regulator
-Text GLabel 5450 1300 1    50   Input ~ 0
+Text GLabel 5250 1500 0    50   Input ~ 0
 VBat
+Wire Wire Line
+	5250 1500 5450 1500
+Wire Wire Line
+	5450 1500 5450 1750
 Text GLabel 5600 3150 2    50   Input ~ 0
 VPPSENS
 Wire Wire Line
@@ -653,27 +658,4 @@ Wire Wire Line
 Connection ~ 5000 3150
 Wire Wire Line
 	5000 3150 5100 3150
-Wire Wire Line
-	5450 1300 5450 1350
-Wire Wire Line
-	5450 1650 5450 1750
-$Comp
-L Device:D_TVS D23
-U 1 1 5F69CFA6
-P 4600 1900
-F 0 "D23" V 4550 1700 50  0000 L CNN
-F 1 "D_TVS" V 4650 1600 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 4600 1900 50  0001 C CNN
-F 3 "~" H 4600 1900 50  0001 C CNN
-	1    4600 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 2050 4600 2150
-Wire Wire Line
-	4600 2150 4900 2150
-Connection ~ 4900 2150
-Wire Wire Line
-	4600 1750 4900 1750
-Connection ~ 4900 1750
 $EndSCHEMATC

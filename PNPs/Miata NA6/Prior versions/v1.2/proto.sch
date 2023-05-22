@@ -329,10 +329,10 @@ F 0 "R64" V 6200 5400 50  0000 C CNN
 F 1 "1k" V 6250 5400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 5400 50  0001 C CNN
 F 3 "~" H 6100 5400 50  0001 C CNN
-F 4 "Yageo" H -150 2350 50  0001 C CNN "Manufacturer_Name"
-F 5 "RC0805FR-071KL" H -150 2350 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391" H -150 2350 50  0001 C CNN "URL"
-F 7 "311-1.00KCRCT-ND" H -150 2350 50  0001 C CNN "Digikey Part Number"
+F 4 "" H -150 2350 50  0001 C CNN "Manufacturer_Name"
+F 5 "" H -150 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "" H -150 2350 50  0001 C CNN "URL"
+F 7 "" H -150 2350 50  0001 C CNN "Digikey Part Number"
 	1    6100 5400
 	1    0    0    -1  
 $EndComp

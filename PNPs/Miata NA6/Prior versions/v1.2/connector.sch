@@ -37,10 +37,18 @@ Text GLabel 7550 2650 2    50   Input ~ 0
 INJ-1-OUT
 Text GLabel 6350 2650 0    50   Input ~ 0
 INJ-2-OUT
+Text GLabel 4250 2200 0    50   Input ~ 0
+INJ-4-OUT
+Text GLabel 4250 2400 0    50   Input ~ 0
+INJ-3-OUT
 Wire Wire Line
 	7550 2650 7450 2650
 Wire Wire Line
+	4350 2200 4250 2200
+Wire Wire Line
 	6350 2650 6450 2650
+Wire Wire Line
+	4350 2400 4250 2400
 Text GLabel 7550 4600 2    50   Input ~ 0
 IGN-1-OUT
 Wire Wire Line
@@ -114,12 +122,14 @@ F 10 "70284153" H 6550 1350 50  0001 L CNN "Allied_Number"
 	1    5700 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7550 4900 7450 4900
 Text GLabel 7550 4800 2    50   Input ~ 0
 ST_Sig
 Wire Wire Line
 	7550 4800 7450 4800
 Wire Wire Line
-	6350 4900 6400 4900
+	6350 4900 6450 4900
 Text GLabel 6350 4500 0    50   Input ~ 0
 AC-Jump
 Wire Wire Line
@@ -128,7 +138,7 @@ Text GLabel 7550 4100 2    50   Input ~ 0
 AC-Jump
 Wire Wire Line
 	7550 4100 7450 4100
-Text GLabel 6350 5000 0    50   Input ~ 0
+Text GLabel 7550 4900 2    50   Input ~ 0
 VBat
 Wire Wire Line
 	6450 3550 6450 3600
@@ -194,15 +204,4 @@ Text GLabel 6350 2550 0    50   Input ~ 0
 BOOST-OUT
 Wire Wire Line
 	6350 2550 6450 2550
-Wire Wire Line
-	6350 5000 6400 5000
-Wire Wire Line
-	6400 5000 6400 4900
-Connection ~ 6400 4900
-Wire Wire Line
-	6400 4900 6450 4900
-Text GLabel 7550 4300 2    50   Input ~ 0
-VSS
-Wire Wire Line
-	7550 4300 7450 4300
 $EndSCHEMATC

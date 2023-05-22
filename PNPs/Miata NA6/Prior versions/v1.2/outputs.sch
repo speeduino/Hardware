@@ -328,14 +328,29 @@ U 1 1 5CEC935F
 P 3850 2300
 F 0 "D16" V 3896 2221 50  0000 R CNN
 F 1 "D" V 3805 2221 50  0000 R CNN
-F 2 "Diode_SMD:D_SMB" H 3850 2300 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 3850 2300 50  0001 C CNN
 F 3 "~" H 3850 2300 50  0001 C CNN
-F 4 "ON Semi" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 5 "NBRS2H100T3G" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/en/products/detail/on-semiconductor/NBRS2H100T3G/1792405" H 0   0   50  0001 C CNN "URL"
-F 7 "NBRS2H100T3GTR-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+F 4 "Micro Commercial Co" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 5 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
+F 7 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    3850 2300
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5CEC9E8B
+P 3850 1400
+F 0 "D15" V 3804 1479 50  0000 L CNN
+F 1 "D" V 3895 1479 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 3850 1400 50  0001 C CNN
+F 3 "~" H 3850 1400 50  0001 C CNN
+F 4 "Micro Commercial Co" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 5 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
+F 7 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+	1    3850 1400
+	0    1    1    0   
 $EndComp
 Text GLabel 3700 2500 0    50   Input ~ 0
 12V-SW
@@ -460,6 +475,21 @@ Wire Wire Line
 	2600 4150 2600 4250
 Text Notes 1900 3850 0    78   ~ 0
 HC-05 Bluetooth Connector
+$Comp
+L Device:D D17
+U 1 1 5CE88F47
+P 9050 1500
+F 0 "D17" V 9004 1579 50  0000 L CNN
+F 1 "D" V 9095 1579 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 9050 1500 50  0001 C CNN
+F 3 "~" H 9050 1500 50  0001 C CNN
+F 4 "Micro Commercial Co" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 5 "1N4448WX-TP" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/micro-commercial-co/1N4448WX-TP/1N4448WXTPMSCT-ND/789338" H 0   0   50  0001 C CNN "URL"
+F 7 "1N4448WXTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+	1    9050 1500
+	0    1    1    0   
+$EndComp
 Text GLabel 9250 1250 2    50   Input ~ 0
 12V-SW
 Wire Wire Line
@@ -471,6 +501,11 @@ Wire Wire Line
 	9050 1700 9250 1700
 Wire Wire Line
 	9050 1250 9250 1250
+Wire Wire Line
+	9050 1250 9050 1350
+Connection ~ 9050 1350
+Wire Wire Line
+	9050 1350 9050 1400
 $Comp
 L Device:R R45
 U 1 1 5D81DC56
@@ -584,7 +619,7 @@ U 1 1 5D827BE5
 P 7100 5200
 F 0 "R46" V 7200 5200 50  0000 C CNN
 F 1 "10k" V 7300 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7030 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7030 5200 50  0001 C CNN
 F 3 "~" H 7100 5200 50  0001 C CNN
 F 4 "Yageo" H -400 3500 50  0001 C CNN "Manufacturer_Name"
 F 5 "RC0805JR-0710KL" H -400 3500 50  0001 C CNN "Manufacturer_Part_Number"
@@ -694,39 +729,4 @@ Wire Wire Line
 	10250 2000 10150 2000
 Text Notes 6550 3850 0    47   ~ 0
 This is the primary (high side) fuel pump signal that goes out the ST-Sig pin
-$Comp
-L Device:D D15
-U 1 1 5F8F8A1F
-P 3850 1400
-F 0 "D15" V 3896 1321 50  0000 R CNN
-F 1 "D" V 3805 1321 50  0000 R CNN
-F 2 "Diode_SMD:D_SMB" H 3850 1400 50  0001 C CNN
-F 3 "~" H 3850 1400 50  0001 C CNN
-F 4 "ON Semi" H 0   -900 50  0001 C CNN "Manufacturer_Name"
-F 5 "NBRS2H100T3G" H 0   -900 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/en/products/detail/on-semiconductor/NBRS2H100T3G/1792405" H 0   -900 50  0001 C CNN "URL"
-F 7 "NBRS2H100T3GTR-ND" H 0   -900 50  0001 C CNN "Digikey Part Number"
-	1    3850 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D D17
-U 1 1 5F8FB43E
-P 9050 1500
-F 0 "D17" V 9096 1421 50  0000 R CNN
-F 1 "D" V 9005 1421 50  0000 R CNN
-F 2 "Diode_SMD:D_SMB" H 9050 1500 50  0001 C CNN
-F 3 "~" H 9050 1500 50  0001 C CNN
-F 4 "ON Semi" H 5200 -800 50  0001 C CNN "Manufacturer_Name"
-F 5 "NBRS2H100T3G" H 5200 -800 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "https://www.digikey.com/en/products/detail/on-semiconductor/NBRS2H100T3G/1792405" H 5200 -800 50  0001 C CNN "URL"
-F 7 "NBRS2H100T3GTR-ND" H 5200 -800 50  0001 C CNN "Digikey Part Number"
-	1    9050 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9050 1350 9050 1400
-Wire Wire Line
-	9050 1250 9050 1350
-Connection ~ 9050 1350
 $EndSCHEMATC

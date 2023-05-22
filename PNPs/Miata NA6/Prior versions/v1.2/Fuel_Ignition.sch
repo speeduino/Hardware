@@ -691,22 +691,41 @@ Wire Wire Line
 	4300 5350 4000 5350
 Text GLabel 4750 5800 2    50   Input ~ 0
 IGN-2-OUT
-Connection ~ 4300 5000
-Wire Wire Line
-	4300 5000 4300 5350
 $Comp
-L power:VDD #PWR018
-U 1 1 5CD7A95E
-P 5100 5450
-F 0 "#PWR018" H 5100 5300 50  0001 C CNN
-F 1 "VDD" V 5117 5578 50  0000 L CNN
-F 2 "" H 5100 5450 50  0001 C CNN
-F 3 "" H 5100 5450 50  0001 C CNN
-	1    5100 5450
+L Device:R R13
+U 1 1 5CD70319
+P 4500 5000
+F 0 "R13" V 4293 5000 50  0000 C CNN
+F 1 "10R" V 4384 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 5000 50  0001 C CNN
+F 3 "~" H 4500 5000 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
+F 7 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+	1    4500 5000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5100 5450 4750 5450
+	4350 5000 4300 5000
+Connection ~ 4300 5000
+Wire Wire Line
+	4300 5000 4300 5350
+Wire Wire Line
+	4650 5000 4750 5000
+$Comp
+L power:VDD #PWR018
+U 1 1 5CD7A95E
+P 4150 5450
+F 0 "#PWR018" H 4150 5300 50  0001 C CNN
+F 1 "VDD" V 4167 5578 50  0000 L CNN
+F 2 "" H 4150 5450 50  0001 C CNN
+F 3 "" H 4150 5450 50  0001 C CNN
+	1    4150 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 5450 4000 5450
 $Comp
 L Device:LED D2
 U 1 1 5CD80B25
@@ -754,12 +773,31 @@ Wire Wire Line
 	3800 6050 3900 6050
 Text GLabel 4750 5000 2    50   Input ~ 0
 IGN-1-OUT
+$Comp
+L Device:R R14
+U 1 1 5CD80B3C
+P 4500 5800
+F 0 "R14" V 4293 5800 50  0000 C CNN
+F 1 "10R" V 4384 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4430 5800 50  0001 C CNN
+F 3 "~" H 4500 5800 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0805FR-0710RL" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 0   0   50  0001 C CNN "URL"
+F 7 "311-10.0CRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+	1    4500 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 5800 4750 5800
 Wire Wire Line
 	4200 6050 4300 6050
 Wire Wire Line
 	4300 6050 4300 5800
 Wire Wire Line
 	4300 5550 4000 5550
+Wire Wire Line
+	4350 5800 4300 5800
 Connection ~ 4300 5800
 Wire Wire Line
 	4300 5800 4300 5550
@@ -1030,22 +1068,41 @@ Wire Wire Line
 	9100 5350 8800 5350
 Text GLabel 9550 5800 2    50   Input ~ 0
 IGN-4-OUT
-Connection ~ 9100 5000
-Wire Wire Line
-	9100 5000 9100 5350
 $Comp
-L power:VDD #PWR0105
-U 1 1 5E823F3D
-P 9950 5450
-F 0 "#PWR0105" H 9950 5300 50  0001 C CNN
-F 1 "VDD" V 9967 5578 50  0000 L CNN
-F 2 "" H 9950 5450 50  0001 C CNN
-F 3 "" H 9950 5450 50  0001 C CNN
-	1    9950 5450
+L Device:R R62
+U 1 1 5E823F33
+P 9300 5000
+F 0 "R62" V 9093 5000 50  0000 C CNN
+F 1 "10R" V 9184 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9230 5000 50  0001 C CNN
+F 3 "~" H 9300 5000 50  0001 C CNN
+F 4 "Yageo" H 4800 0   50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0805FR-0710RL" H 4800 0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 4800 0   50  0001 C CNN "URL"
+F 7 "311-10.0CRCT-ND" H 4800 0   50  0001 C CNN "Digikey Part Number"
+	1    9300 5000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9950 5450 9600 5450
+	9150 5000 9100 5000
+Connection ~ 9100 5000
+Wire Wire Line
+	9100 5000 9100 5350
+Wire Wire Line
+	9450 5000 9550 5000
+$Comp
+L power:VDD #PWR0105
+U 1 1 5E823F3D
+P 8950 5450
+F 0 "#PWR0105" H 8950 5300 50  0001 C CNN
+F 1 "VDD" V 8967 5578 50  0000 L CNN
+F 2 "" H 8950 5450 50  0001 C CNN
+F 3 "" H 8950 5450 50  0001 C CNN
+	1    8950 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 5450 8800 5450
 $Comp
 L Device:LED D19
 U 1 1 5E823F48
@@ -1093,108 +1150,51 @@ Wire Wire Line
 	8600 6050 8700 6050
 Text GLabel 9550 5000 2    50   Input ~ 0
 IGN-3-OUT
+$Comp
+L Device:R R63
+U 1 1 5E823F65
+P 9300 5800
+F 0 "R63" V 9093 5800 50  0000 C CNN
+F 1 "10R" V 9184 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9230 5800 50  0001 C CNN
+F 3 "~" H 9300 5800 50  0001 C CNN
+F 4 "Yageo" H 4800 0   50  0001 C CNN "Manufacturer_Name"
+F 5 "RC0805FR-0710RL" H 4800 0   50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0710RL/311-10.0CRCT-ND/730481" H 4800 0   50  0001 C CNN "URL"
+F 7 "311-10.0CRCT-ND" H 4800 0   50  0001 C CNN "Digikey Part Number"
+	1    9300 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9450 5800 9550 5800
 Wire Wire Line
 	9000 6050 9100 6050
 Wire Wire Line
 	9100 6050 9100 5800
 Wire Wire Line
 	9100 5550 8800 5550
+Wire Wire Line
+	9150 5800 9100 5800
 Connection ~ 9100 5800
 Wire Wire Line
 	9100 5800 9100 5550
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 5E868697
-P 10450 4650
-F 0 "J6" H 10530 4642 50  0000 L CNN
-F 1 "Conn_01x02" H 10530 4551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10450 4650 50  0001 C CNN
-F 3 "~" H 10450 4650 50  0001 C CNN
-	1    10450 4650
+P 10400 5350
+F 0 "J6" H 10480 5342 50  0000 L CNN
+F 1 "Conn_01x02" H 10480 5251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10400 5350 50  0001 C CNN
+F 3 "~" H 10400 5350 50  0001 C CNN
+	1    10400 5350
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 4650 0    50   Input ~ 0
+Text GLabel 10100 5350 0    50   Input ~ 0
 IGN-3-OUT
 Wire Wire Line
-	10150 4650 10250 4650
-Text GLabel 10150 4750 0    50   Input ~ 0
+	10100 5350 10200 5350
+Text GLabel 10100 5450 0    50   Input ~ 0
 IGN-4-OUT
 Wire Wire Line
-	10150 4750 10250 4750
-$Comp
-L Device:C C32
-U 1 1 5F789E04
-P 4900 5350
-F 0 "C32" V 4648 5350 50  0000 C CNN
-F 1 "0.1uF" V 4739 5350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4938 5200 50  0001 C CNN
-F 3 "~" H 4900 5350 50  0001 C CNN
-F 4 "311-1140-1-ND" H 4900 5350 50  0001 C CNN "Digikey Part Number"
-F 5 "Yageo" H 4900 5350 50  0001 C CNN "Manufacturer_Name"
-F 6 "CC0805KRX7R9BB104" H 4900 5350 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0805KRX7R9BB104/311-1140-1-ND/303050" H 4900 5350 50  0001 C CNN "URL"
-F 8 "CC0805KRX7R9BB104" H 4900 5350 50  0001 C CNN "Part #"
-	1    4900 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4750 5350 4750 5450
-Connection ~ 4750 5450
-Wire Wire Line
-	4750 5450 4000 5450
-$Comp
-L power:GND #PWR0118
-U 1 1 5F78F64D
-P 5100 5350
-F 0 "#PWR0118" H 5100 5100 50  0001 C CNN
-F 1 "GND" V 5105 5222 50  0000 R CNN
-F 2 "" H 5100 5350 50  0001 C CNN
-F 3 "" H 5100 5350 50  0001 C CNN
-	1    5100 5350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5100 5350 5050 5350
-$Comp
-L Device:C C33
-U 1 1 5F79C8DF
-P 9750 5350
-F 0 "C33" V 9498 5350 50  0000 C CNN
-F 1 "0.1uF" V 9589 5350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9788 5200 50  0001 C CNN
-F 3 "~" H 9750 5350 50  0001 C CNN
-F 4 "311-1140-1-ND" H 9750 5350 50  0001 C CNN "Digikey Part Number"
-F 5 "Yageo" H 9750 5350 50  0001 C CNN "Manufacturer_Name"
-F 6 "CC0805KRX7R9BB104" H 9750 5350 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/yageo/CC0805KRX7R9BB104/311-1140-1-ND/303050" H 9750 5350 50  0001 C CNN "URL"
-F 8 "CC0805KRX7R9BB104" H 9750 5350 50  0001 C CNN "Part #"
-	1    9750 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9600 5350 9600 5450
-Connection ~ 9600 5450
-Wire Wire Line
-	9600 5450 8800 5450
-$Comp
-L power:GND #PWR0119
-U 1 1 5F7A1A8E
-P 9950 5350
-F 0 "#PWR0119" H 9950 5100 50  0001 C CNN
-F 1 "GND" V 9955 5222 50  0000 R CNN
-F 2 "" H 9950 5350 50  0001 C CNN
-F 3 "" H 9950 5350 50  0001 C CNN
-	1    9950 5350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9950 5350 9900 5350
-Wire Wire Line
-	9100 5000 9550 5000
-Wire Wire Line
-	9100 5800 9550 5800
-Wire Wire Line
-	4300 5800 4750 5800
-Wire Wire Line
-	4300 5000 4750 5000
+	10100 5450 10200 5450
 $EndSCHEMATC
