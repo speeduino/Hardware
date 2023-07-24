@@ -15,7 +15,8 @@ The Speeduino project is a flexible, fully featured Engine Management Systems (E
 This repositiory contains the official Speeduino hardware designs. All new designs have been made in Kicad, with some early boards developed in Fritzing. 
 
 ## License
-These designs are release under the [TAPR Open Hardware License v1.0](https://files.tapr.org/OHL/TAPR_Open_Hardware_License_v1.0.txt). 
+These designs are release under the [CERN Open Hardware License v2 Strong (CERN-OHL-S)](https://ohwr.org/cern_ohl_s_v2.txt). 
+This license is similar to the GPL, however is designed specifically for hardware design files, including PCB layouts and schematics. As the 'strongly reciprocal' version of the CERN OHL is used, you may use, copy, modify and create variations of these designs freely, provided that any changes or variations are also released under this CERN-OHL-S. 
 
 ## Where to Buy
 [Pre-made Speeduino units/boards are available from a number of official resellers](https://speeduino.com/home/where-to-buy)
