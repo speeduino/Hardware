@@ -1,0 +1,218 @@
+EESchema Schematic File Version 4
+LIBS:MAP Card-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Misc:MPXH6250AC6U U1
+U 1 1 5F5BB035
+P 5850 3700
+F 0 "U1" H 5420 3746 50  0000 R CNN
+F 1 "MPXH6250AC6U" H 5420 3655 50  0000 R CNN
+F 2 "Misc:MPXH6250AC6U" H 5350 3350 50  0001 C CNN
+F 3 "" H 5850 4300 50  0001 C CNN
+F 4 "MPXH6250AC6U-ND" H 5850 3700 50  0001 C CNN "Digikey Part Number"
+F 5 "NXP" H 5850 3700 50  0001 C CNN "Manufacturer_Name"
+F 6 "MPXH6250AC6U" H 5850 3700 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=MPXH6250AC6U" H 5850 3700 50  0001 C CNN "URL"
+	1    5850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3900 6850 3900
+Wire Wire Line
+	6250 3900 6250 3700
+Wire Wire Line
+	7250 3700 6850 3700
+Wire Wire Line
+	6850 3700 6850 3150
+Wire Wire Line
+	6850 3150 6350 3150
+Wire Wire Line
+	5850 3150 5850 3400
+Wire Wire Line
+	8150 3700 8450 3700
+Wire Wire Line
+	8450 3700 8450 3150
+Wire Wire Line
+	8450 3150 6850 3150
+Connection ~ 6850 3150
+$Comp
+L power:GND #PWR0101
+U 1 1 5F5D546C
+P 7250 3800
+F 0 "#PWR0101" H 7250 3550 50  0001 C CNN
+F 1 "GND" V 7255 3672 50  0000 R CNN
+F 2 "" H 7250 3800 50  0001 C CNN
+F 3 "" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F5D5CFF
+P 8150 3800
+F 0 "#PWR0102" H 8150 3550 50  0001 C CNN
+F 1 "GND" V 8155 3672 50  0000 R CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3900 8150 4100
+Wire Wire Line
+	8150 4100 6850 4100
+Wire Wire Line
+	6850 4100 6850 3900
+Connection ~ 6850 3900
+Wire Wire Line
+	6850 3900 6700 3900
+$Comp
+L Misc:EBC05DRXN_Card J1
+U 1 1 5F5D819F
+P 8150 3900
+F 0 "J1" H 8600 3235 50  0000 C CNN
+F 1 "EBC05DRXN_Card" H 8600 3326 50  0000 C CNN
+F 2 "Misc:Sullins_EBC05DRXN_2x05_P2.54mm_Edge" H 8900 4000 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS42/DSANUWW0040354.pdf" H 8900 3900 50  0001 L CNN
+F 4 "CONN EDGE DUAL FMALE 10POS 0.100" H 8900 3800 50  0001 L CNN "Description"
+F 5 "10.95" H 8900 3700 50  0001 L CNN "Height"
+F 6 "Sullins" H 8900 3600 50  0001 L CNN "Manufacturer_Name"
+F 7 "EBC05DRXN" H 8900 3500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "EBC05DRXN" H 8900 3400 50  0001 L CNN "Arrow Part Number"
+	1    8150 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DA923B8
+P 6050 2800
+F 0 "C1" H 5850 2850 50  0000 L CNN
+F 1 "0.01uF" H 5750 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 2650 50  0001 C CNN
+F 3 "~" H 6050 2800 50  0001 C CNN
+F 4 "311-1136-1-ND" H 6050 2800 50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H 6050 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "CC0805KRX7R9BB103" H 6050 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB103/311-1136-1-ND/303046" H 6050 2800 50  0001 C CNN "URL"
+	1    6050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DA923B9
+P 6350 2800
+F 0 "C2" H 6465 2846 50  0000 L CNN
+F 1 "1uF" H 6465 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6388 2650 50  0001 C CNN
+F 3 "~" H 6350 2800 50  0001 C CNN
+F 4 "311-1365-1-ND" H 6350 2800 50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H 6350 2800 50  0001 C CNN "Manufacturer_Name"
+F 6 "CC0805KKX7R7BB105" H 6350 2800 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/product-detail/en/yageo/CC0805KKX7R7BB105/311-1365-1-ND/2103149" H 6350 2800 50  0001 C CNN "URL"
+	1    6350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5DA923BA
+P 6200 2400
+F 0 "#PWR0103" H 6200 2150 50  0001 C CNN
+F 1 "GND" H 6205 2227 50  0000 C CNN
+F 2 "" H 6200 2400 50  0001 C CNN
+F 3 "" H 6200 2400 50  0001 C CNN
+	1    6200 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 2650 6200 2650
+Wire Wire Line
+	6200 2650 6200 2400
+Connection ~ 6200 2650
+Wire Wire Line
+	6200 2650 6350 2650
+Wire Wire Line
+	6050 3150 6050 2950
+Wire Wire Line
+	6350 3150 6350 2950
+$Comp
+L power:GND #PWR0104
+U 1 1 5DA923CB
+P 6450 4350
+F 0 "#PWR0104" H 6450 4100 50  0001 C CNN
+F 1 "GND" H 6455 4177 50  0000 C CNN
+F 2 "" H 6450 4350 50  0001 C CNN
+F 3 "" H 6450 4350 50  0001 C CNN
+	1    6450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5DA923F3
+P 6450 4100
+F 0 "C3" H 6565 4146 50  0000 L CNN
+F 1 "47pF" H 6565 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 3950 50  0001 C CNN
+F 3 "~" H 6450 4100 50  0001 C CNN
+F 4 "399-6963-1-ND" H 6450 4100 50  0001 C CNN "Digikey Part Number"
+F 5 "Kemet" H 6450 4100 50  0001 C CNN "Manufacturer_Name"
+F 6 "C0805C470J5GACAUTO" H 6450 4100 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com/product-detail/en/kemet/C0805C470J5GACAUTO/399-6963-1-ND/3314472" H 6450 4100 50  0001 C CNN "URL"
+	1    6450 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DA923F4
+P 6700 4050
+F 0 "R1" V 6900 4050 50  0000 C CNN
+F 1 "51K" V 6800 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6630 4050 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+F 4 "311-51.0KCRCT-ND" H 6700 4050 50  0001 C CNN "Digikey Part Number"
+F 5 "Yageo" H 6700 4050 50  0001 C CNN "Manufacturer_Name"
+F 6 "RC0805FR-0751KL" H 6700 4050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/yageo/RC0805FR-0751KL/311-51.0KCRCT-ND/730960" H 6700 4050 50  0001 C CNN "URL"
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4250 6450 4300
+Wire Wire Line
+	6700 4200 6700 4300
+Wire Wire Line
+	6700 4300 6450 4300
+Connection ~ 6450 4300
+Wire Wire Line
+	6450 4300 6450 4350
+Connection ~ 6050 3150
+Wire Wire Line
+	6050 3150 5850 3150
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 3150 6050 3150
+Connection ~ 6700 3900
+Wire Wire Line
+	6700 3900 6450 3900
+Wire Wire Line
+	6450 3950 6450 3900
+Connection ~ 6450 3900
+Wire Wire Line
+	6450 3900 6250 3900
+Wire Wire Line
+	5850 4000 5850 4300
+Wire Wire Line
+	5850 4300 6450 4300
+$EndSCHEMATC

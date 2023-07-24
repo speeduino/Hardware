@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name IC_Automotive)(type KiCad)(uri ${KIPRJMOD}/lib/IC_Automotive/IC_Automotive.pretty)(options "")(descr ""))
+  (lib (name Connector_Automotive)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_Automotive/Connector_Automotive.pretty)(options "")(descr ""))
+  (lib (name Shields)(type KiCad)(uri ${KIPRJMOD}/lib/Shields/Shields.pretty)(options "")(descr ""))
+  (lib (name Misc)(type KiCad)(uri ${KIPRJMOD}/lib/Misc/Misc.pretty)(options "")(descr ""))
+)
