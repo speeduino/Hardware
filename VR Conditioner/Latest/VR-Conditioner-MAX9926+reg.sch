@@ -5,8 +5,8 @@ $Descr User 8268 5846
 encoding utf-8
 Sheet 1 1
 Title "Dual Variable Reluctance MAX9926 mode A2"
-Date "2021-02-24"
-Rev "3.5"
+Date "2021-08-16"
+Rev "3.7"
 Comp "(c)2021 Phill Rogers @ TechColab.co.je"
 Comment1 "Optional onboard regulator or 5V direct"
 Comment2 "Optional power resistors"
@@ -531,7 +531,7 @@ Wire Wire Line
 	6050 3000 5900 3000
 Connection ~ 5900 3000
 Text Notes 600  1050 0    50   ~ 0
-SoFar:\n+ under 20x20mm & single sided for ‘Letter’ postage.\n+ M2 mounting holes\n+ Optional power resisotrs\n+ Optional regulator for typical automotive power\n+ Optional pin header for breadboard etc. \n+ Could cut at pin header for direct PCB mount by castellation
+SoFar:\n+ under 20x20mm & SMT on only one side for ‘Letter’ postage.\n+ M2 mounting holes\n+ Optional power resisotrs\n+ Optional regulator for typical automotive power\n+ Optional pin header for breadboard etc. \n+ Could cut at pin header for direct PCB mount by castellation
 Text Label 6850 2200 2    50   ~ 0
 COUT1
 Text Label 6850 2300 2    50   ~ 0
@@ -557,10 +557,10 @@ Wire Wire Line
 Wire Wire Line
 	6850 2500 6900 2500
 $Comp
-L Device:R R3
+L Device:R R22
 U 1 1 60812326
 P 4800 3400
-F 0 "R3" V 4800 3350 50  0000 L CNN
+F 0 "R22" V 4800 3350 50  0000 L CNN
 F 1 "10k" V 4700 3200 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4730 3400 50  0001 C CNN
 F 3 "~" H 4800 3400 50  0001 C CNN
@@ -572,10 +572,10 @@ F 7 "RC1206FR-7W10KL" H 4800 3400 50  0001 C CNN "MFG Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R21
 U 1 1 6081295A
 P 4800 3100
-F 0 "R2" V 4800 3050 50  0000 L CNN
+F 0 "R21" V 4800 3050 50  0000 L CNN
 F 1 "10k" V 4700 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4730 3100 50  0001 C CNN
 F 3 "~" H 4800 3100 50  0001 C CNN
@@ -587,10 +587,10 @@ F 7 "RC1206FR-7W10KL" H 4800 3100 50  0001 C CNN "MFG Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R11
 U 1 1 60812D66
 P 4800 2600
-F 0 "R1" V 4800 2550 50  0000 L CNN
+F 0 "R11" V 4800 2550 50  0000 L CNN
 F 1 "10k" V 4900 2550 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 4730 2600 50  0001 C CNN
 F 3 "~" H 4800 2600 50  0001 C CNN

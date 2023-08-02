@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/phillrogers/Documents/kicad/VR-Conditioner-MAX9926+reg/VR-Conditioner-MAX9926+reg.kicad_sch</source>
+    <date>Sunday, 07 August 2022 at 08:59:38</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dual Variable Reluctance MAX9926 mode A2</title>
+        <company>(c)2021 Phill Rogers @ TechColab.co.je</company>
+        <rev>3.72</rev>
+        <date>2021-08-16</date>
+        <source>VR-Conditioner-MAX9926+reg.kicad_sch</source>
+        <comment number="1" value="Optional onboard regulator or 5V direct"/>
+        <comment number="2" value="Optional power resistors"/>
+        <comment number="3" value="Optional edge header for breadboard etc."/>
+        <comment number="4" value="M2 mounting holes"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">10 V ±5% Tolerance U2J Multilayer Ceramic Capacitor&#xD;</field>
+        <field name="MFG Name">Murata&#xD;Murata&#xD;</field>
+        <field name="MFG Part Num">GRM1857U1A103JA44D&#xD;</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="10 V ±5% Tolerance U2J Multilayer Ceramic Capacitor&#xD;"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Murata&#xD;Murata&#xD;"/>
+      <property name="MFG Part Num" value="GRM1857U1A103JA44D&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602dca31</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">Ceramic 0.1uF 16V X7R 10% Pad SMD 0603 Soft Termination 125C Automotive T/R&#xD;</field>
+        <field name="MFG Name">Murata&#xD;</field>
+        <field name="MFG Part Num">GCJ188R71C104KA01D&#xD;</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Ceramic 0.1uF 16V X7R 10% Pad SMD 0603 Soft Termination 125C Automotive T/R&#xD;"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Murata&#xD;"/>
+      <property name="MFG Part Num" value="GCJ188R71C104KA01D&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602eb266</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">16V ±10% Tolerance X7R Surface Mount Multilayer Ceramic Capacitor&#xD;</field>
+        <field name="MFG Name">Murata&#xD;</field>
+        <field name="MFG Part Num">GCM188R71C105KA64D&#xD;</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="16V ±10% Tolerance X7R Surface Mount Multilayer Ceramic Capacitor&#xD;"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Murata&#xD;"/>
+      <property name="MFG Part Num" value="GCM188R71C105KA64D&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602ebadd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Description">25 V 10 uF ±20% Tolerance X5R Multilayer Ceramic Capacitor&#xD;</field>
+        <field name="MFG Name">Murata&#xD;</field>
+        <field name="MFG Part Num">GRM21BR61E106MA73L&#xD;</field>
+        <field name="Package JEDEC ID">0805_2012Metric</field>
+      </fields>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Description" value="25 V 10 uF ±20% Tolerance X5R Multilayer Ceramic Capacitor&#xD;"/>
+      <property name="Package JEDEC ID" value="0805_2012Metric"/>
+      <property name="MFG Name" value="Murata&#xD;"/>
+      <property name="MFG Part Num" value="GRM21BR61E106MA73L&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006037fbe4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">1000 pF 50 V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor&#xD;</field>
+        <field name="MFG Name">Murata&#xD;</field>
+        <field name="MFG Part Num">GRM1885C1H102JA01D&#xD;</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="1000 pF 50 V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor&#xD;"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Murata&#xD;"/>
+      <property name="MFG Part Num" value="GRM1885C1H102JA01D&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000603156d1</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Description">1000 pF 50 V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor&#xD;</field>
+        <field name="MFG Name">Murata&#xD;</field>
+        <field name="MFG Part Num">GRM1885C1H102JA01D&#xD;</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="1000 pF 50 V ±5 % Tolerance C0G SMT Multilayer Ceramic Capacitor&#xD;"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Murata&#xD;"/>
+      <property name="MFG Part Num" value="GRM1885C1H102JA01D&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060314324</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060331e91</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006034dbd2</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006037799d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000603785c5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>8-pin header</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Counter_Clockwise" description="Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006033c0e4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Edge</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Critical">DoNoPlace. User option</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Critical" value="DoNoPlace. User option"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000603276e3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Description">Thick Film; +/-1% 0.2W</field>
+        <field name="MFG Name">Vishay</field>
+        <field name="MFG Part Num">CRCW06031K00FKEAHP</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="Thick Film; +/-1% 0.2W"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Vishay"/>
+      <property name="MFG Part Num" value="CRCW06031K00FKEAHP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060351fb7</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG Name">Yageo</field>
+        <field name="MFG Part Num">RC1206FR-7W10KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="Package JEDEC ID" value=""/>
+      <property name="MFG Name" value="Yageo"/>
+      <property name="MFG Part Num" value="RC1206FR-7W10KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060812d66</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG Name">Yageo</field>
+        <field name="MFG Part Num">RC1206FR-7W10KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="Package JEDEC ID" value=""/>
+      <property name="MFG Name" value="Yageo"/>
+      <property name="MFG Part Num" value="RC1206FR-7W10KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006032192f</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Critical">DoNoPlace. User option</field>
+        <field name="Description">3W, 5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Critical" value="DoNoPlace. User option"/>
+      <property name="Description" value="3W, 5%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006032ac19</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Description">Thick Film; +/-1% 0.2W</field>
+        <field name="MFG Name">Vishay</field>
+        <field name="MFG Part Num">CRCW06031K00FKEAHP</field>
+        <field name="Package JEDEC ID">0603_1608Metric</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="Thick Film; +/-1% 0.2W"/>
+      <property name="Package JEDEC ID" value="0603_1608Metric"/>
+      <property name="MFG Name" value="Vishay"/>
+      <property name="MFG Part Num" value="CRCW06031K00FKEAHP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060351fb1</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG Name">Yageo</field>
+        <field name="MFG Part Num">RC1206FR-7W10KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="Package JEDEC ID" value=""/>
+      <property name="MFG Name" value="Yageo"/>
+      <property name="MFG Part Num" value="RC1206FR-7W10KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006081295a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MFG Name">Yageo</field>
+        <field name="MFG Part Num">RC1206FR-7W10KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="Package JEDEC ID" value=""/>
+      <property name="MFG Name" value="Yageo"/>
+      <property name="MFG Part Num" value="RC1206FR-7W10KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060812326</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Critical">DoNoPlace. User option</field>
+        <field name="Description">3W, 5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Critical" value="DoNoPlace. User option"/>
+      <property name="Characteristics" value=""/>
+      <property name="Description" value="3W, 5%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006032659e</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TP</value>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96047598-d30c-4b31-8ece-0fef9b42b18a</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TP</value>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea9e2d53-d400-4d76-90d6-00cfee129b32</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TP</value>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b473d73a-fabc-4d32-a196-40b735e3773b</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TP</value>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b6fc195-d655-4c7e-9490-2af288c0f574</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX9926UAEE+</value>
+      <footprint>MAX9926UAEE+:MAX9926UAEE&amp;plus_</footprint>
+      <datasheet>https://datasheet.octopart.com/MAX9926UAEE%2B-Maxim-Integrated-datasheet-11046290.pdf</datasheet>
+      <fields>
+        <field name="Critical">Yes</field>
+        <field name="Description">MAX9926 Series 10 mA Differential Input Logic Output Sensor Interface -SSOP-16</field>
+        <field name="MFG Name">Maxim Integrated</field>
+        <field name="MFG Part Num">MAX9926UAEE+</field>
+        <field name="Package JEDEC ID">SSOP-16</field>
+      </fields>
+      <libsource lib="2021-02-17_17-37-40" part="MAX9926UAEE+" description=""/>
+      <property name="MFG Name" value="Maxim Integrated"/>
+      <property name="MFG Part Num" value="MAX9926UAEE+"/>
+      <property name="Description" value="MAX9926 Series 10 mA Differential Input Logic Output Sensor Interface -SSOP-16"/>
+      <property name="Package JEDEC ID" value="SSOP-16"/>
+      <property name="Critical" value="Yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000602daa0c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117CD-5.0</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="Critical">DoNoPlace. User option</field>
+        <field name="Description">1A Low Dropout Voltage Regulator</field>
+        <field name="MFG Name">Advanced Monolithic Systems</field>
+        <field name="MFG Part Num">AMS1117-5.0</field>
+        <field name="Package JEDEC ID">TO92 inline wide</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117CD-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, TO-252"/>
+      <property name="MFG Name" value="Advanced Monolithic Systems"/>
+      <property name="MFG Part Num" value="AMS1117-5.0"/>
+      <property name="Description" value="1A Low Dropout Voltage Regulator"/>
+      <property name="Package JEDEC ID" value="TO92 inline wide"/>
+      <property name="Critical" value="DoNoPlace. User option"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="VR-Conditioner-MAX9926+reg.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060325a8a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2021-02-17_17-37-40" part="MAX9926UAEE+">
+      <footprints>
+        <fp>21-0055H_16_MXM</fp>
+        <fp>21-0055H_16_MXM-M</fp>
+        <fp>21-0055H_16_MXM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX9926UAEE+</field>
+        <field name="Footprint">21-0055H_16_MXM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT_THRS1" type="unspecified"/>
+        <pin num="2" name="EXT1" type="input"/>
+        <pin num="3" name="BIAS1" type="input"/>
+        <pin num="4" name="COUT1" type="output"/>
+        <pin num="5" name="COUT2" type="output"/>
+        <pin num="6" name="BIAS2" type="input"/>
+        <pin num="7" name="EXT2" type="input"/>
+        <pin num="8" name="INT_THRS2" type="unspecified"/>
+        <pin num="9" name="IN2+" type="input"/>
+        <pin num="10" name="IN2-" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="DIRN" type="output"/>
+        <pin num="13" name="ZERO_EN" type="unspecified"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="IN1-" type="input"/>
+        <pin num="16" name="IN1+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Small">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Counter_Clockwise">
+      <description>Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117CD-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, TO-252</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>TO?252*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117CD-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2021-02-17_17-37-40">
+      <uri>/Users/phillrogers/Documents/kicad/VR-Conditioner-MAX9926+reg/2021-02-17_17-37-40.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="2" name="/COUT1">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="COUT1" pintype="output"/>
+    </net>
+    <net code="3" name="/COUT2">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="COUT2" pintype="output"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="INT_THRS1" pintype="unspecified"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="ZERO_EN" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="BIAS1" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="BIAS2" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="INT_THRS2" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IN1+" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IN1-" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IN2-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IN2+" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="14" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="EXT1" pintype="input+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="EXT2" pintype="input+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="DIRN" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
