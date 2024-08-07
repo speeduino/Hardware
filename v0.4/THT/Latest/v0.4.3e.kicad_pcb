@@ -7,9 +7,10 @@
   (paper "A4")
   (title_block
     (title "0.4")
-    (date "2021-03-27")
-    (rev "4d")
+    (date "2024-08-07")
+    (rev "4e")
     (company "Speeduino")
+    (comment 1 "updated by Kenneth \"Cmdr_scotty\" Walters")
   )
 
   (layers
