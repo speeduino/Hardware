@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Misc)(type KiCad)(uri /Users/josh/Documents/Speeduino-Boards-Private/DropBearT/lib/Misc/Misc.pretty)(options "")(descr ""))
+)

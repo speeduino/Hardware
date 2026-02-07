@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet, Digikey Part Number, Manufacturer_Name, Manufacturer_Part_Number, URL, Arrow Part Number, Description, Height
+C1 ,1,0.01uF,Capacitor_SMD:C_0805_2012Metric,~,311-1136-1-ND,Yageo,CC0805KRX7R9BB103,https://www.digikey.com/product-detail/en/yageo/CC0805KRX7R9BB103/311-1136-1-ND/303046,,,
+C2 ,1,1uF,Capacitor_SMD:C_0805_2012Metric,~,311-1365-1-ND,Yageo,CC0805KKX7R7BB105,https://www.digikey.com/product-detail/en/yageo/CC0805KKX7R7BB105/311-1365-1-ND/2103149,,,
+C3 ,1,47pF,Capacitor_SMD:C_0805_2012Metric,~,399-6963-1-ND,Kemet,C0805C470J5GACAUTO,https://www.digikey.com/product-detail/en/kemet/C0805C470J5GACAUTO/399-6963-1-ND/3314472,,,
+R1 ,1,51K,Resistor_SMD:R_0805_2012Metric,~,311-51.0KCRCT-ND,Yageo,RC0805FR-0751KL,https://www.digikey.com.au/product-detail/en/yageo/RC0805FR-0751KL/311-51.0KCRCT-ND/730960,,,
+U1 ,1,MPXH6250AC6U,Misc:MPXH6250AC6U,,MPXH6250AC6U-ND,NXP,MPXH6250AC6U,https://www.digikey.com.au/products/en?keywords=MPXH6250AC6U,,,
