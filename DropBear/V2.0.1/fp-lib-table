@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Shields")(type "KiCad")(uri "${KIPRJMOD}/lib/Shields/Shields.pretty")(options "")(descr ""))
+  (lib (name "IC_Automotive")(type "KiCad")(uri "${KIPRJMOD}/lib/IC_Automotive/IC_Automotive.pretty")(options "")(descr ""))
+  (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/lib/Misc/Misc.pretty")(options "")(descr ""))
+)
